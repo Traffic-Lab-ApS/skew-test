@@ -1,0 +1,19 @@
+{
+  "name": "skew-test",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^8.1.5",
+    "astro": "^5.9.4"
+  },
+  "devDependencies": {
+    "@astrojs/vue": "^5.1.0",
+    "vue": "^3.5.16"
+  }
+}
