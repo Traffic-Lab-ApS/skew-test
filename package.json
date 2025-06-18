@@ -2,6 +2,10 @@
   "name": "skew-test",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": "22.x",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,7 +13,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "^8.1.5",
+    "@astrojs/node": "^9.2.2",
+    "@astrojs/vercel": "^8.1.3",
     "astro": "^5.9.4"
   },
   "devDependencies": {
