@@ -1,6 +1,6 @@
 <script setup>
 const logHello = () => {
-  console.log('Hello, Astro')
+  console.log('Hello, Astro lovers and friends!')
 }
 </script>
 
